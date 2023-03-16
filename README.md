@@ -1,3 +1,6 @@
+Los módulos base (etapa, comuna, rol, permisos, empresa, usuarios) tienen su mantenedor.  La creación de roles fue modificada, la idea es que al ingresar un rol (solo el nombre) se guarde y esto redirige a la asignación de permisos para cada rol (tomando en cuenta que para cada nombre de rol solo hay una posible combinación de comuna, etapa y empresa)
+La base de datos no tiene migración, está incluida en un archivo .sql 
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
